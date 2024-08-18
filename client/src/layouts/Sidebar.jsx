@@ -29,9 +29,10 @@ const Sidebar = () => {
 
   return (
     <>
+    {/* bg-palette-chineseBlack */}
       <div
         ref={sideBarRef}
-        className="sticky top-0 z-30 bg-palette-chineseBlack text-white lg:h-screen"
+        className="sticky top-0 z-30 bg-blue-800 text-white lg:h-screen"
       >
         <div className="flex flex-row lg:flex-col justify-between items-center w-full h-full p-5">
           <div className="flex items-center space-x-4 lg:space-x-0">
